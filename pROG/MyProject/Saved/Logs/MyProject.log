@@ -844,3 +844,619 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.05.14-09.26.03:883][646]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
 [2022.05.14-09.26.03:968][648]LogPlayLevel: Display: Destroying online subsystem :Context_4
 [2022.05.14-09.26.34:444][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.05.14-09.27.08:979][554]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.14-09.27.08:986][554]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.14-09.27.08:986][554]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.14-09.27.08:986][554]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.14-09.27.08:986][554]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.14-09.27.08:986][554]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.14-09.27.08:986][554]LogWorldPartition: Display: GetPartitionedActors took 34 us
+[2022.05.14-09.27.08:986][554]LogWorldPartition: Display: GenerateStreaming took 177 us
+[2022.05.14-09.27.08:986][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.14-09.27.08:986][554]PIE: New page: PIE session: ThirdPersonMap (14 mai 2022 à 13:27:08)
+[2022.05.14-09.27.09:023][554]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.14-09.27.09:029][554]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.14-09.27.09:029][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005834s)
+[2022.05.14-09.27.09:029][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005937s)
+[2022.05.14-09.27.09:029][554]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-09.27.09:029][554]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.14-09.27.09:030][554]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.14-09.27.09:030][554]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.14-09.27.09:031][554]LogWorldPartition: Display: WorldPartition initialize took 805 us
+[2022.05.14-09.27.09:031][554]LogPlayLevel: PIE: World Init took: (0.001859s)
+[2022.05.14-09.27.09:036][554]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.05.14-09.27.09:036][554]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.05.14-09.27.09:036][554]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.14-09.27.09:036][554]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.14-09.27.09:036][554]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.14-09.27.09:036][554]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.14-09.27.09:036][554]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.14-09.27.09:036][554]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.14-09.27.09:036][554]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.14-09.27.09:036][554]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.14-09.27.09:037][554]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.14-09.27.09:037][554]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.14-09.27.09:037][554]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.14-09.27.09:038][554]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.14-09.27.09:050][554]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2022.05.14-09.27.09:050][554]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.14-09.27.09:050][554]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.14-09.27.09:051][554]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.14-09.27.09:051][554]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.05.14-09.27.09:051][554]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.05.14-09.27.09:052][554]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.05.14-09.27.09:052][554]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.05.14-09.27.09:052][554]LogInit: FAudioDevice initialized.
+[2022.05.14-09.27.09:052][554]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2022.05.14-09.27.09:063][554]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.05.14-09.27.09:064][554]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.05.14-11.27.09
+[2022.05.14-09.27.09:064][554]LogWorld: Bringing up level for play took: 0.000985
+[2022.05.14-09.27.09:066][554]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2022.05.14-09.27.09:068][554]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.05.14-09.27.09:068][554]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.14-09.27.09:068][554]PIE: Server logged in
+[2022.05.14-09.27.09:068][554]PIE: Play in editor total start time 0,084 seconds.
+[2022.05.14-09.27.16:964][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-09.27.16:964][487]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.14-09.27.16:964][487]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-09.27.16:965][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-09.27.16:972][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.14-09.27.16:974][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-09.27.16:979][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-09.27.16:980][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.05.14-09.27.16:981][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.05.14-09.27.16:985][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.05.14-09.27.17:045][489]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.05.14-09.27.24:368][332]Cmd: DELETE
+[2022.05.14-09.27.24:369][332]Cmd: ACTOR DELETE
+[2022.05.14-09.27.24:376][332]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.05.14-09.27.24:382][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.05.14-09.27.24:383][332]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.05.14-09.27.25:373][450]Cmd: TRANSACTION UNDO
+[2022.05.14-09.27.25:373][450]LogEditorTransaction: Undo Delete Elements
+[2022.05.14-09.28.29:356][819]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.14-09.28.29:365][819]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.14-09.28.29:373][820]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.05.14-09.28.31:322][ 54]LogContentBrowser: Attempting asset rename: NewFolder -> level
+[2022.05.14-09.28.31:322][ 54]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.14-09.28.36:603][651]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.05.14-09.28.36:609][651]LogContentBrowser: Creating deferred item: NewWorld
+[2022.05.14-09.28.36:627][653]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2022.05.14-09.28.43:945][511]LogContentBrowser: Attempting asset rename: NewWorld -> TapisRoulant
+[2022.05.14-09.28.43:947][511]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-09.28.43:950][511]LogContentBrowser: End creating deferred item NewWorld
+[2022.05.14-09.28.45:398][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.05.14-09.28.50:500][679]LogSlate: Window 'Save Content' being destroyed
+[2022.05.14-09.28.57:208][431]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2AF9D32AA3163307544398A04421CC640020B25C), compiling. 
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: ================================================
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: Shaders Compiled: 2
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: Time job spent in pending queue: average 0.01 s, longest 0.01 s
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: Job execution time: average 0.85 s, max 0.85 s
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: Job life time (pending + execution): average 0.86 s, max 0.86
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.86 s
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: Average processing rate: 1.17 jobs/sec
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: Effective parallelization: 0.50 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2022.05.14-09.28.58:106][484]LogShaderCompilers: Display: ================================================
+[2022.05.14-09.29.09:341][728]LogObjectTools: Deleting 1 worlds: /Game/level/TapisRoulant.TapisRoulant
+[2022.05.14-09.29.09:341][728]LogObjectTools: Currently 5 active worlds: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3
+[2022.05.14-09.29.09:348][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.05.14-09.29.10:214][728]LogSlate: Window 'Delete Assets' being destroyed
+[2022.05.14-09.29.10:221][728]LogWorld: UWorld::CleanupWorld for TapisRoulant, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-09.29.10:221][728]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-09.29.10:228][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.05.14-09.29.15:209][271]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.29.15:209][271]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.29.16:384][395]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.29.16:384][395]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.29.18:763][644]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.05.14-09.29.22:372][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.05.14-09.29.23:804][988]LogSlate: Window 'Save Content' being destroyed
+[2022.05.14-09.29.31:166][826]LogContentBrowser: Attempting asset rename: ThirdPersonMap_2 -> ThirdPersonMap_2
+[2022.05.14-09.29.32:137][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.05.14-09.29.33:708][940]LogSlate: Window 'Save Content' being destroyed
+[2022.05.14-09.29.33:771][940]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.002921 seconds
+[2022.05.14-09.29.33:773][940]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/8/D2/2EAEJU14USW4743OCODYEI
+[2022.05.14-09.29.33:773][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/2EAEJU14USW4743OCODYEI83CADB6E4CC053A4340D7589B1AE0807.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/8/D2/2EAEJU14USW4743OCODYEI.uasset'
+[2022.05.14-09.29.33:775][940]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/4/OT/1TWZCCRP6FGNJJ87V0K5IE
+[2022.05.14-09.29.33:775][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/1TWZCCRP6FGNJJ87V0K5IEBFB7945A4399A77B211D4BA03B534310.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/4/OT/1TWZCCRP6FGNJJ87V0K5IE.uasset'
+[2022.05.14-09.29.33:777][940]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/3/JQ/1UXAZ3QXARZU50ELNQFY96
+[2022.05.14-09.29.33:777][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/1UXAZ3QXARZU50ELNQFY96A57C72E545207D41E915C8AB84AD93E3.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/3/JQ/1UXAZ3QXARZU50ELNQFY96.uasset'
+[2022.05.14-09.29.33:778][940]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/8/57/CXQNNBOYSBULJK8M4M1DQG
+[2022.05.14-09.29.33:779][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/CXQNNBOYSBULJK8M4M1DQG0FAC64E045689C2CC7EF52BACF11D0A5.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/8/57/CXQNNBOYSBULJK8M4M1DQG.uasset'
+[2022.05.14-09.29.33:781][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/BJ/W4Q3B5Y1NDSBVND4J2OUGM
+[2022.05.14-09.29.33:781][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/W4Q3B5Y1NDSBVND4J2OUGM6739F9014538A1E302A82F8646651470.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/BJ/W4Q3B5Y1NDSBVND4J2OUGM.uasset'
+[2022.05.14-09.29.33:783][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/7/5U/XT5F6YF1AZ945GAJW9PL8T
+[2022.05.14-09.29.33:783][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/XT5F6YF1AZ945GAJW9PL8TFC17D3EA4C9D1A34ED53D8973229D975.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/7/5U/XT5F6YF1AZ945GAJW9PL8T.uasset'
+[2022.05.14-09.29.33:785][940]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/1/S2/WSNTU5JSI9LDMC5U11L1E0
+[2022.05.14-09.29.33:785][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/WSNTU5JSI9LDMC5U11L1E02D884BA849BE5DD40043B898ED8DDAD3.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/1/S2/WSNTU5JSI9LDMC5U11L1E0.uasset'
+[2022.05.14-09.29.33:787][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/HK/6ACH1VKRP438QLQ4JK37ZN
+[2022.05.14-09.29.33:787][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/6ACH1VKRP438QLQ4JK37ZN78D6DB8C4DD27144A15F17BB96FD7EDD.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/HK/6ACH1VKRP438QLQ4JK37ZN.uasset'
+[2022.05.14-09.29.33:789][940]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/0/7F/W2D1CQBX3ZBWPIZ0CNUBXP
+[2022.05.14-09.29.33:789][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/W2D1CQBX3ZBWPIZ0CNUBXPDF636EEE458C64D46F22E69C7483275C.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/0/7F/W2D1CQBX3ZBWPIZ0CNUBXP.uasset'
+[2022.05.14-09.29.33:790][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/66/ZQJXLX5XJVF55N2N6LXIPK
+[2022.05.14-09.29.33:790][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/ZQJXLX5XJVF55N2N6LXIPK758F92FC4295F36E926EB9911111C00D.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/66/ZQJXLX5XJVF55N2N6LXIPK.uasset'
+[2022.05.14-09.29.33:792][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/G5/SUSU1RF90GKOBE2W5NZUON
+[2022.05.14-09.29.33:792][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/SUSU1RF90GKOBE2W5NZUONE9560AF74FA7B5D6BA79968CB8DB5539.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/G5/SUSU1RF90GKOBE2W5NZUON.uasset'
+[2022.05.14-09.29.33:794][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/2S/DJRIKQW5BD6NYF14BCSFCU
+[2022.05.14-09.29.33:794][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/DJRIKQW5BD6NYF14BCSFCUC945B2AB4385FCC688D358B632ADEA1E.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/2S/DJRIKQW5BD6NYF14BCSFCU.uasset'
+[2022.05.14-09.29.33:797][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/CB/2WTXCZ8WFC48XZANUCWKVB
+[2022.05.14-09.29.33:797][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/2WTXCZ8WFC48XZANUCWKVB35277E254B46A7B871C001980C569C93.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/CB/2WTXCZ8WFC48XZANUCWKVB.uasset'
+[2022.05.14-09.29.33:799][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/CI/LYDNYXWR4IF1P4ME5Q8ETJ
+[2022.05.14-09.29.33:799][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/LYDNYXWR4IF1P4ME5Q8ETJ6E10B7AB47DAB0E1B8EFB8BC68AD5EB3.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/CI/LYDNYXWR4IF1P4ME5Q8ETJ.uasset'
+[2022.05.14-09.29.33:801][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/1/EX/VAM3JHSGBHVNIA0WTSZ24R
+[2022.05.14-09.29.33:801][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/VAM3JHSGBHVNIA0WTSZ24R8628B35643137B2DE493DFA6FDB2A22D.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/1/EX/VAM3JHSGBHVNIA0WTSZ24R.uasset'
+[2022.05.14-09.29.33:803][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/P6/5VDTLYBQ6FRVS6E1T62XMZ
+[2022.05.14-09.29.33:803][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/5VDTLYBQ6FRVS6E1T62XMZ2A58D2FA4F94BE293096AF96F5F4F398.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/P6/5VDTLYBQ6FRVS6E1T62XMZ.uasset'
+[2022.05.14-09.29.33:805][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/UI/XAMCWKUVSM05HURDTA3MNN
+[2022.05.14-09.29.33:806][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/XAMCWKUVSM05HURDTA3MNN0930C88940CED029EF51F9B06362A640.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/UI/XAMCWKUVSM05HURDTA3MNN.uasset'
+[2022.05.14-09.29.33:807][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/12/PWH1WZKFT8JRYV1CHLOFK4
+[2022.05.14-09.29.33:807][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/PWH1WZKFT8JRYV1CHLOFK4468B5A334EC5875509784BB251C7AFF6.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/12/PWH1WZKFT8JRYV1CHLOFK4.uasset'
+[2022.05.14-09.29.33:809][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/EF/OM644WDN70M7QPFPYNO4H0
+[2022.05.14-09.29.33:809][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/OM644WDN70M7QPFPYNO4H0525234BF4C9B8242101E0488DC88BAA8.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/EF/OM644WDN70M7QPFPYNO4H0.uasset'
+[2022.05.14-09.29.33:811][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/HE/9MTO06CP03V22F0U9EWT23
+[2022.05.14-09.29.33:811][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/9MTO06CP03V22F0U9EWT23B94720B44DB8620F0962A78031F31E7F.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/HE/9MTO06CP03V22F0U9EWT23.uasset'
+[2022.05.14-09.29.33:813][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/1B/95O99U5HRWJ0088702IT4Q
+[2022.05.14-09.29.33:813][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/95O99U5HRWJ0088702IT4Q589B9C384DF35003040EB882E6A94774.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/1B/95O99U5HRWJ0088702IT4Q.uasset'
+[2022.05.14-09.29.33:815][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/H2/GUEBZRUQAQ8Y4SVY5L7LW8
+[2022.05.14-09.29.33:815][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/GUEBZRUQAQ8Y4SVY5L7LW85ECDAF1042957CF8A87FAEB0CABCB8B0.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/H2/GUEBZRUQAQ8Y4SVY5L7LW8.uasset'
+[2022.05.14-09.29.33:817][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/O4/2ZGDGF2Y6K8WASEMMOWZX0
+[2022.05.14-09.29.33:817][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/2ZGDGF2Y6K8WASEMMOWZX0173E19224B69CAA527CF58B8984EEA65.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/O4/2ZGDGF2Y6K8WASEMMOWZX0.uasset'
+[2022.05.14-09.29.33:819][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/WE/XS74ZVIQY2KKU0GSNK46V7
+[2022.05.14-09.29.33:819][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/XS74ZVIQY2KKU0GSNK46V79A4DB21A4885BBE1A906E78479162786.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/WE/XS74ZVIQY2KKU0GSNK46V7.uasset'
+[2022.05.14-09.29.33:821][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/MH/8BJ96LJQ7SO10RKSVRV2U8
+[2022.05.14-09.29.33:821][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/8BJ96LJQ7SO10RKSVRV2U8D75E99EC41F2AA67C1F115BD23A36158.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/MH/8BJ96LJQ7SO10RKSVRV2U8.uasset'
+[2022.05.14-09.29.33:823][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/4Q/CL8YX70PAN1QW4DHCOUF6G
+[2022.05.14-09.29.33:823][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/CL8YX70PAN1QW4DHCOUF6G1F6FC364467D1BC14ACF2FB8874AC1C1.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/4Q/CL8YX70PAN1QW4DHCOUF6G.uasset'
+[2022.05.14-09.29.33:825][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/P1/X7YU1K3LQ4MBE66UPN7VB1
+[2022.05.14-09.29.33:825][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/X7YU1K3LQ4MBE66UPN7VB182A02A1A4D7B2594EDBC4CAEB8C7EEAE.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/P1/X7YU1K3LQ4MBE66UPN7VB1.uasset'
+[2022.05.14-09.29.33:827][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/4G/OHIL6GTS6P0OIQF2B727OL
+[2022.05.14-09.29.33:827][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/OHIL6GTS6P0OIQF2B727OLBAEA515C4ECE0F6B79319C91BD0DC315.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/4G/OHIL6GTS6P0OIQF2B727OL.uasset'
+[2022.05.14-09.29.33:829][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/3/CX/WUBE6CGW4FQ6YACGFLQJQI
+[2022.05.14-09.29.33:829][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/WUBE6CGW4FQ6YACGFLQJQI308E1A1C4FDB5C85A14B078BF515D6DF.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/3/CX/WUBE6CGW4FQ6YACGFLQJQI.uasset'
+[2022.05.14-09.29.33:831][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/OU/KURLN16D6358YXO9GOO0CX
+[2022.05.14-09.29.33:831][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/KURLN16D6358YXO9GOO0CX7614F8B24D4B9D7A158DFCBB8541B752.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/OU/KURLN16D6358YXO9GOO0CX.uasset'
+[2022.05.14-09.29.33:834][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/92/Z1B4JIQDWA9UG7WYHEJIO7
+[2022.05.14-09.29.33:834][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/Z1B4JIQDWA9UG7WYHEJIO7DF7A8154483FCACF7D92ADADC6409D9B.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/92/Z1B4JIQDWA9UG7WYHEJIO7.uasset'
+[2022.05.14-09.29.33:836][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/FZ/80RZ3AP14U40UVBNQ5CINV
+[2022.05.14-09.29.33:837][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/80RZ3AP14U40UVBNQ5CINV05025A3842D92763714A3E81653194FC.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/FZ/80RZ3AP14U40UVBNQ5CINV.uasset'
+[2022.05.14-09.29.33:839][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/H8/ENI7PF250FGOEG30DOQ3ID
+[2022.05.14-09.29.33:839][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/ENI7PF250FGOEG30DOQ3ID6E6D0B894A2F056672C548A2E44E3FA8.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/H8/ENI7PF250FGOEG30DOQ3ID.uasset'
+[2022.05.14-09.29.33:841][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/XS/Y8FKMLDOXMFCJ22BPYO3RA
+[2022.05.14-09.29.33:841][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/Y8FKMLDOXMFCJ22BPYO3RAFE3C99FD43638357FCAA1587C848362E.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/XS/Y8FKMLDOXMFCJ22BPYO3RA.uasset'
+[2022.05.14-09.29.33:843][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/KV/9165CELH6LHZKL2DPAB27E
+[2022.05.14-09.29.33:843][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/9165CELH6LHZKL2DPAB27ED989263548CDD31A46DEF09FC2692FD3.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/KV/9165CELH6LHZKL2DPAB27E.uasset'
+[2022.05.14-09.29.33:845][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/LU/65VNGYEO7H8VE45RFKLCPA
+[2022.05.14-09.29.33:845][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/65VNGYEO7H8VE45RFKLCPA6A9019114E1067FA27D5DCBA03341721.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/LU/65VNGYEO7H8VE45RFKLCPA.uasset'
+[2022.05.14-09.29.33:847][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/C/PX/MO3OIEWUKQJ0MW19W4Q6FH
+[2022.05.14-09.29.33:847][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/MO3OIEWUKQJ0MW19W4Q6FHF7CD21A64CB1BEDFB21CD0A9E6393AFF.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/C/PX/MO3OIEWUKQJ0MW19W4Q6FH.uasset'
+[2022.05.14-09.29.33:849][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/88/59AHO6OQG837KLWS1DHBB1
+[2022.05.14-09.29.33:849][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/59AHO6OQG837KLWS1DHBB1E623D2124ED6916764A36EAE80C45231.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/88/59AHO6OQG837KLWS1DHBB1.uasset'
+[2022.05.14-09.29.33:852][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/O3/Z5RVFGOB70DOVC4BNQ056S
+[2022.05.14-09.29.33:852][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/Z5RVFGOB70DOVC4BNQ056SD3B605F74FEB4ED208C06F81675EF914.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/O3/Z5RVFGOB70DOVC4BNQ056S.uasset'
+[2022.05.14-09.29.33:854][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/0H/TXTVQ21NLW2419J0HZF7TW
+[2022.05.14-09.29.33:854][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/TXTVQ21NLW2419J0HZF7TWF2EE2647429FA6DE1B3214A6F482941E.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/0H/TXTVQ21NLW2419J0HZF7TW.uasset'
+[2022.05.14-09.29.33:856][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/3C/M3C2L880I2FNWQL89OPKYD
+[2022.05.14-09.29.33:856][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/M3C2L880I2FNWQL89OPKYDF5F8CE804FF5C1C660ED96A1A672AC76.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/3C/M3C2L880I2FNWQL89OPKYD.uasset'
+[2022.05.14-09.29.33:858][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/ET/4BVTUCQL424GC9UEYBTEUL
+[2022.05.14-09.29.33:858][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/4BVTUCQL424GC9UEYBTEUL242D467E449983073AF99080014561D6.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/ET/4BVTUCQL424GC9UEYBTEUL.uasset'
+[2022.05.14-09.29.33:860][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/5/0D/M4N4LA63D872OQEBW7CSA4
+[2022.05.14-09.29.33:860][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/M4N4LA63D872OQEBW7CSA4A0CC48F64F9658F7DA7F489402786C00.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/5/0D/M4N4LA63D872OQEBW7CSA4.uasset'
+[2022.05.14-09.29.33:861][940]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-09.29.33:864][940]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/RO/EFK6EVGJT2LJIK7RIRAG01
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/3/CX/WUBE6CGW4FQ6YACGFLQJQI
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/66/ZQJXLX5XJVF55N2N6LXIPK
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/CI/LYDNYXWR4IF1P4ME5Q8ETJ
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/5/0D/M4N4LA63D872OQEBW7CSA4
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/DM/ZHGFKI82Q5P7ZLP16IC2TF
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/HE/9MTO06CP03V22F0U9EWT23
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/FZ/80RZ3AP14U40UVBNQ5CINV
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/UI/XAMCWKUVSM05HURDTA3MNN
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/G5/SUSU1RF90GKOBE2W5NZUON
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/ET/4BVTUCQL424GC9UEYBTEUL
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/3C/M3C2L880I2FNWQL89OPKYD
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/1/EX/VAM3JHSGBHVNIA0WTSZ24R
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/MH/8BJ96LJQ7SO10RKSVRV2U8
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/XS/Y8FKMLDOXMFCJ22BPYO3RA
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/BJ/W4Q3B5Y1NDSBVND4J2OUGM
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/LU/65VNGYEO7H8VE45RFKLCPA
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/92/Z1B4JIQDWA9UG7WYHEJIO7
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/O3/Z5RVFGOB70DOVC4BNQ056S
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/7/5U/XT5F6YF1AZ945GAJW9PL8T
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/H8/ENI7PF250FGOEG30DOQ3ID
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/88/59AHO6OQG837KLWS1DHBB1
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/P6/5VDTLYBQ6FRVS6E1T62XMZ
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/0H/TXTVQ21NLW2419J0HZF7TW
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/2S/DJRIKQW5BD6NYF14BCSFCU
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/P1/X7YU1K3LQ4MBE66UPN7VB1
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/O4/2ZGDGF2Y6K8WASEMMOWZX0
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/C/PX/MO3OIEWUKQJ0MW19W4Q6FH
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/WE/XS74ZVIQY2KKU0GSNK46V7
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/12/PWH1WZKFT8JRYV1CHLOFK4
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/OU/KURLN16D6358YXO9GOO0CX
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/4G/OHIL6GTS6P0OIQF2B727OL
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/KV/9165CELH6LHZKL2DPAB27E
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/1B/95O99U5HRWJ0088702IT4Q
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/EF/OM644WDN70M7QPFPYNO4H0
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/H2/GUEBZRUQAQ8Y4SVY5L7LW8
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/4Q/CL8YX70PAN1QW4DHCOUF6G
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/HK/6ACH1VKRP438QLQ4JK37ZN
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/CB/2WTXCZ8WFC48XZANUCWKVB
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/X3/45YV41IYBXWQ8Z5VOMQKBF
+/Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/1/S2/WSNTU5JSI9LDMC5U11L1E0
+/Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/4/OT/1TWZCCRP6FGNJJ87V0K5IE
+/Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/0/7F/W2D1CQBX3ZBWPIZ0CNUBXP
+/Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/8/D2/2EAEJU14USW4743OCODYEI
+/Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/3/JQ/1UXAZ3QXARZU50ELNQFY96
+/Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/8/57/CXQNNBOYSBULJK8M4M1DQG
+[2022.05.14-09.29.33:866][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/RO/EFK6EVGJT2LJIK7RIRAG01
+[2022.05.14-09.29.33:866][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/EFK6EVGJT2LJIK7RIRAG0102455BA8411386098AF20BB7E57FE200.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/RO/EFK6EVGJT2LJIK7RIRAG01.uasset'
+[2022.05.14-09.29.33:868][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/3/CX/WUBE6CGW4FQ6YACGFLQJQI
+[2022.05.14-09.29.33:869][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/WUBE6CGW4FQ6YACGFLQJQI57FD23624B8AA549F71342BBBB502CBA.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/3/CX/WUBE6CGW4FQ6YACGFLQJQI.uasset'
+[2022.05.14-09.29.33:871][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/66/ZQJXLX5XJVF55N2N6LXIPK
+[2022.05.14-09.29.33:871][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/ZQJXLX5XJVF55N2N6LXIPK22A9F1D44EE89117B9574A8CFAF10C13.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/66/ZQJXLX5XJVF55N2N6LXIPK.uasset'
+[2022.05.14-09.29.33:873][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/CI/LYDNYXWR4IF1P4ME5Q8ETJ
+[2022.05.14-09.29.33:873][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/LYDNYXWR4IF1P4ME5Q8ETJ6217553449CCC75DA11A6AAB3685BCB0.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/CI/LYDNYXWR4IF1P4ME5Q8ETJ.uasset'
+[2022.05.14-09.29.33:875][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/5/0D/M4N4LA63D872OQEBW7CSA4
+[2022.05.14-09.29.33:875][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/M4N4LA63D872OQEBW7CSA40183B8AC4AF4223795A4EC9FDC944E29.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/5/0D/M4N4LA63D872OQEBW7CSA4.uasset'
+[2022.05.14-09.29.33:877][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/DM/ZHGFKI82Q5P7ZLP16IC2TF
+[2022.05.14-09.29.33:877][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/ZHGFKI82Q5P7ZLP16IC2TFCC7E57BE4DE0B1D0B020B6A6BA3B6903.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/DM/ZHGFKI82Q5P7ZLP16IC2TF.uasset'
+[2022.05.14-09.29.33:880][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/HE/9MTO06CP03V22F0U9EWT23
+[2022.05.14-09.29.33:880][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/9MTO06CP03V22F0U9EWT23453AECF045B6E87079D2ECB8E553A105.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/HE/9MTO06CP03V22F0U9EWT23.uasset'
+[2022.05.14-09.29.33:882][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/FZ/80RZ3AP14U40UVBNQ5CINV
+[2022.05.14-09.29.33:882][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/80RZ3AP14U40UVBNQ5CINVAA07179C485FAF82751DDEA6014DD477.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/FZ/80RZ3AP14U40UVBNQ5CINV.uasset'
+[2022.05.14-09.29.33:884][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/UI/XAMCWKUVSM05HURDTA3MNN
+[2022.05.14-09.29.33:884][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/XAMCWKUVSM05HURDTA3MNNCA4E798547865FE38089DB96447E3239.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/UI/XAMCWKUVSM05HURDTA3MNN.uasset'
+[2022.05.14-09.29.33:886][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/G5/SUSU1RF90GKOBE2W5NZUON
+[2022.05.14-09.29.33:886][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/SUSU1RF90GKOBE2W5NZUON3AEAB4B644CA88E173FC248256DFF822.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/G5/SUSU1RF90GKOBE2W5NZUON.uasset'
+[2022.05.14-09.29.33:888][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/ET/4BVTUCQL424GC9UEYBTEUL
+[2022.05.14-09.29.33:889][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/4BVTUCQL424GC9UEYBTEULCA52DA9B41A79E466102E4B3AA9DB444.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/ET/4BVTUCQL424GC9UEYBTEUL.uasset'
+[2022.05.14-09.29.33:891][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/3C/M3C2L880I2FNWQL89OPKYD
+[2022.05.14-09.29.33:891][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/M3C2L880I2FNWQL89OPKYDCA7E121F482A76F88E802DA378C12358.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/3C/M3C2L880I2FNWQL89OPKYD.uasset'
+[2022.05.14-09.29.33:893][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/1/EX/VAM3JHSGBHVNIA0WTSZ24R
+[2022.05.14-09.29.33:893][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/VAM3JHSGBHVNIA0WTSZ24RE75A070F4626472A92AE4397A7B63DC1.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/1/EX/VAM3JHSGBHVNIA0WTSZ24R.uasset'
+[2022.05.14-09.29.33:895][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/MH/8BJ96LJQ7SO10RKSVRV2U8
+[2022.05.14-09.29.33:895][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/8BJ96LJQ7SO10RKSVRV2U838C2B2254EE2C297D32ECEBD8708572D.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/MH/8BJ96LJQ7SO10RKSVRV2U8.uasset'
+[2022.05.14-09.29.33:897][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/XS/Y8FKMLDOXMFCJ22BPYO3RA
+[2022.05.14-09.29.33:898][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/Y8FKMLDOXMFCJ22BPYO3RA90E617FD407FA903896DFAA6A8ADA546.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/XS/Y8FKMLDOXMFCJ22BPYO3RA.uasset'
+[2022.05.14-09.29.33:900][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/BJ/W4Q3B5Y1NDSBVND4J2OUGM
+[2022.05.14-09.29.33:900][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/W4Q3B5Y1NDSBVND4J2OUGM51BD42D744FC7CC3B3B231AB0376520F.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/BJ/W4Q3B5Y1NDSBVND4J2OUGM.uasset'
+[2022.05.14-09.29.33:902][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/LU/65VNGYEO7H8VE45RFKLCPA
+[2022.05.14-09.29.33:902][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/65VNGYEO7H8VE45RFKLCPAF66A543948C0304FCF0E21A547D35B29.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/LU/65VNGYEO7H8VE45RFKLCPA.uasset'
+[2022.05.14-09.29.33:904][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/92/Z1B4JIQDWA9UG7WYHEJIO7
+[2022.05.14-09.29.33:904][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/Z1B4JIQDWA9UG7WYHEJIO75C2D6B61409BEF685434B18E9AF29126.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/92/Z1B4JIQDWA9UG7WYHEJIO7.uasset'
+[2022.05.14-09.29.33:906][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/O3/Z5RVFGOB70DOVC4BNQ056S
+[2022.05.14-09.29.33:906][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/Z5RVFGOB70DOVC4BNQ056SB261257B4CE512C94532C6AFDE38BE05.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/O3/Z5RVFGOB70DOVC4BNQ056S.uasset'
+[2022.05.14-09.29.33:908][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/7/5U/XT5F6YF1AZ945GAJW9PL8T
+[2022.05.14-09.29.33:909][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/XT5F6YF1AZ945GAJW9PL8TF12C74494AEA30AB160FB69752990495.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/7/5U/XT5F6YF1AZ945GAJW9PL8T.uasset'
+[2022.05.14-09.29.33:910][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/H8/ENI7PF250FGOEG30DOQ3ID
+[2022.05.14-09.29.33:911][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/ENI7PF250FGOEG30DOQ3ID03A6F5A841DBF2A223BF37A3384A4A97.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/H8/ENI7PF250FGOEG30DOQ3ID.uasset'
+[2022.05.14-09.29.33:913][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/88/59AHO6OQG837KLWS1DHBB1
+[2022.05.14-09.29.33:913][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/59AHO6OQG837KLWS1DHBB13726EA0C4222A78096495F91421644E1.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/88/59AHO6OQG837KLWS1DHBB1.uasset'
+[2022.05.14-09.29.33:915][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/P6/5VDTLYBQ6FRVS6E1T62XMZ
+[2022.05.14-09.29.33:915][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/5VDTLYBQ6FRVS6E1T62XMZ561E8E15494D0A9B896626A5ED0EE674.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/P6/5VDTLYBQ6FRVS6E1T62XMZ.uasset'
+[2022.05.14-09.29.33:917][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/0H/TXTVQ21NLW2419J0HZF7TW
+[2022.05.14-09.29.33:917][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/TXTVQ21NLW2419J0HZF7TW056210BC495B385623CEEF85722F062A.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/0H/TXTVQ21NLW2419J0HZF7TW.uasset'
+[2022.05.14-09.29.33:919][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/2S/DJRIKQW5BD6NYF14BCSFCU
+[2022.05.14-09.29.33:920][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/DJRIKQW5BD6NYF14BCSFCU31071DB14D38BEA1F4B070BC4DAF1B2C.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/2S/DJRIKQW5BD6NYF14BCSFCU.uasset'
+[2022.05.14-09.29.33:921][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/P1/X7YU1K3LQ4MBE66UPN7VB1
+[2022.05.14-09.29.33:922][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/X7YU1K3LQ4MBE66UPN7VB1546C03D744653D3FBBF4E08399958E10.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/P1/X7YU1K3LQ4MBE66UPN7VB1.uasset'
+[2022.05.14-09.29.33:923][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/O4/2ZGDGF2Y6K8WASEMMOWZX0
+[2022.05.14-09.29.33:924][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/2ZGDGF2Y6K8WASEMMOWZX03CDE743644E7758B1A1BCFBC3AC7EF1E.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/O4/2ZGDGF2Y6K8WASEMMOWZX0.uasset'
+[2022.05.14-09.29.33:926][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/C/PX/MO3OIEWUKQJ0MW19W4Q6FH
+[2022.05.14-09.29.33:926][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/MO3OIEWUKQJ0MW19W4Q6FH7BADC72740D14B9D4303DA9B61712931.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/C/PX/MO3OIEWUKQJ0MW19W4Q6FH.uasset'
+[2022.05.14-09.29.33:928][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/WE/XS74ZVIQY2KKU0GSNK46V7
+[2022.05.14-09.29.33:928][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/XS74ZVIQY2KKU0GSNK46V7B62B604D448A1DE113E085AFABF78EC5.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/WE/XS74ZVIQY2KKU0GSNK46V7.uasset'
+[2022.05.14-09.29.33:930][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/12/PWH1WZKFT8JRYV1CHLOFK4
+[2022.05.14-09.29.33:930][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/PWH1WZKFT8JRYV1CHLOFK4038EC2ED4FA8228DD2EE97B13E0C439C.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/12/PWH1WZKFT8JRYV1CHLOFK4.uasset'
+[2022.05.14-09.29.33:932][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/OU/KURLN16D6358YXO9GOO0CX
+[2022.05.14-09.29.33:932][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/KURLN16D6358YXO9GOO0CX414DBC254A4E6529A0AE0EABF64A326E.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/OU/KURLN16D6358YXO9GOO0CX.uasset'
+[2022.05.14-09.29.33:934][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/4G/OHIL6GTS6P0OIQF2B727OL
+[2022.05.14-09.29.33:934][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/OHIL6GTS6P0OIQF2B727OLEA2EC888416AA1113B777AA1C6FA2BEF.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/4G/OHIL6GTS6P0OIQF2B727OL.uasset'
+[2022.05.14-09.29.33:936][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/KV/9165CELH6LHZKL2DPAB27E
+[2022.05.14-09.29.33:937][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/9165CELH6LHZKL2DPAB27E2C9F6B7D47DF33BFDA311CB2680B08EE.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/KV/9165CELH6LHZKL2DPAB27E.uasset'
+[2022.05.14-09.29.33:938][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/1B/95O99U5HRWJ0088702IT4Q
+[2022.05.14-09.29.33:939][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/95O99U5HRWJ0088702IT4Q7AE0DF97467717C48DAA73B8869202AC.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/1B/95O99U5HRWJ0088702IT4Q.uasset'
+[2022.05.14-09.29.33:940][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/EF/OM644WDN70M7QPFPYNO4H0
+[2022.05.14-09.29.33:941][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/OM644WDN70M7QPFPYNO4H0200DFD4C4AD5AF2160D04DBBF121CAA6.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/EF/OM644WDN70M7QPFPYNO4H0.uasset'
+[2022.05.14-09.29.33:942][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/H2/GUEBZRUQAQ8Y4SVY5L7LW8
+[2022.05.14-09.29.33:943][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/GUEBZRUQAQ8Y4SVY5L7LW87DD1362243AAF42AF2FA98BE6EB4A48A.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/H2/GUEBZRUQAQ8Y4SVY5L7LW8.uasset'
+[2022.05.14-09.29.33:945][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/4Q/CL8YX70PAN1QW4DHCOUF6G
+[2022.05.14-09.29.33:945][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/CL8YX70PAN1QW4DHCOUF6GF76092E0489CCF653DDF348E369C2730.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/4Q/CL8YX70PAN1QW4DHCOUF6G.uasset'
+[2022.05.14-09.29.33:947][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/HK/6ACH1VKRP438QLQ4JK37ZN
+[2022.05.14-09.29.33:947][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/6ACH1VKRP438QLQ4JK37ZNAE40A99745615E89AC148AB9A9434337.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/HK/6ACH1VKRP438QLQ4JK37ZN.uasset'
+[2022.05.14-09.29.33:949][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/CB/2WTXCZ8WFC48XZANUCWKVB
+[2022.05.14-09.29.33:949][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/2WTXCZ8WFC48XZANUCWKVB8EBC04DD45F5897FDDD5A184B811C141.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/CB/2WTXCZ8WFC48XZANUCWKVB.uasset'
+[2022.05.14-09.29.33:951][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/X3/45YV41IYBXWQ8Z5VOMQKBF
+[2022.05.14-09.29.33:951][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/45YV41IYBXWQ8Z5VOMQKBF2765DFB544003EE5F383BAB12A7F7294.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/X3/45YV41IYBXWQ8Z5VOMQKBF.uasset'
+[2022.05.14-09.29.33:953][940]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/1/S2/WSNTU5JSI9LDMC5U11L1E0
+[2022.05.14-09.29.33:954][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/WSNTU5JSI9LDMC5U11L1E04332DDED4C373BACCA984DAF8CCE9B87.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/1/S2/WSNTU5JSI9LDMC5U11L1E0.uasset'
+[2022.05.14-09.29.33:955][940]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/4/OT/1TWZCCRP6FGNJJ87V0K5IE
+[2022.05.14-09.29.33:955][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/1TWZCCRP6FGNJJ87V0K5IE6F21C03A4226418D1C6DF080FCF1C815.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/4/OT/1TWZCCRP6FGNJJ87V0K5IE.uasset'
+[2022.05.14-09.29.33:957][940]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/0/7F/W2D1CQBX3ZBWPIZ0CNUBXP
+[2022.05.14-09.29.33:957][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/W2D1CQBX3ZBWPIZ0CNUBXP500A5AD149E0DFA575655FBF2993DA1B.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/0/7F/W2D1CQBX3ZBWPIZ0CNUBXP.uasset'
+[2022.05.14-09.29.33:959][940]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/8/D2/2EAEJU14USW4743OCODYEI
+[2022.05.14-09.29.33:959][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/2EAEJU14USW4743OCODYEIF0688F7B4768BCD3C58608811FF02C4E.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/8/D2/2EAEJU14USW4743OCODYEI.uasset'
+[2022.05.14-09.29.33:961][940]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/3/JQ/1UXAZ3QXARZU50ELNQFY96
+[2022.05.14-09.29.33:961][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/1UXAZ3QXARZU50ELNQFY965C1F4B6D42EEB85DF15132AFE9F2453B.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/3/JQ/1UXAZ3QXARZU50ELNQFY96.uasset'
+[2022.05.14-09.29.33:962][940]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/8/57/CXQNNBOYSBULJK8M4M1DQG
+[2022.05.14-09.29.33:962][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/CXQNNBOYSBULJK8M4M1DQGB5C9B71B409D37C2A8326AAB51044AB2.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/8/57/CXQNNBOYSBULJK8M4M1DQG.uasset'
+[2022.05.14-09.29.33:964][940]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/RO/EFK6EVGJT2LJIK7RIRAG01
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/3/CX/WUBE6CGW4FQ6YACGFLQJQI
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/66/ZQJXLX5XJVF55N2N6LXIPK
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/CI/LYDNYXWR4IF1P4ME5Q8ETJ
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/5/0D/M4N4LA63D872OQEBW7CSA4
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/DM/ZHGFKI82Q5P7ZLP16IC2TF
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/HE/9MTO06CP03V22F0U9EWT23
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/FZ/80RZ3AP14U40UVBNQ5CINV
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/UI/XAMCWKUVSM05HURDTA3MNN
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/G5/SUSU1RF90GKOBE2W5NZUON
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/ET/4BVTUCQL424GC9UEYBTEUL
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/3C/M3C2L880I2FNWQL89OPKYD
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/1/EX/VAM3JHSGBHVNIA0WTSZ24R
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/MH/8BJ96LJQ7SO10RKSVRV2U8
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/XS/Y8FKMLDOXMFCJ22BPYO3RA
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/BJ/W4Q3B5Y1NDSBVND4J2OUGM
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/LU/65VNGYEO7H8VE45RFKLCPA
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/92/Z1B4JIQDWA9UG7WYHEJIO7
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/O3/Z5RVFGOB70DOVC4BNQ056S
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/7/5U/XT5F6YF1AZ945GAJW9PL8T
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/H8/ENI7PF250FGOEG30DOQ3ID
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/88/59AHO6OQG837KLWS1DHBB1
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/P6/5VDTLYBQ6FRVS6E1T62XMZ
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/0H/TXTVQ21NLW2419J0HZF7TW
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/2S/DJRIKQW5BD6NYF14BCSFCU
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/P1/X7YU1K3LQ4MBE66UPN7VB1
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/O4/2ZGDGF2Y6K8WASEMMOWZX0
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/C/PX/MO3OIEWUKQJ0MW19W4Q6FH
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/WE/XS74ZVIQY2KKU0GSNK46V7
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/12/PWH1WZKFT8JRYV1CHLOFK4
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/OU/KURLN16D6358YXO9GOO0CX
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/4G/OHIL6GTS6P0OIQF2B727OL
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/KV/9165CELH6LHZKL2DPAB27E
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/B/1B/95O99U5HRWJ0088702IT4Q
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/4/EF/OM644WDN70M7QPFPYNO4H0
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/H2/GUEBZRUQAQ8Y4SVY5L7LW8
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/4Q/CL8YX70PAN1QW4DHCOUF6G
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/9/HK/6ACH1VKRP438QLQ4JK37ZN
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/A/CB/2WTXCZ8WFC48XZANUCWKVB
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/X3/45YV41IYBXWQ8Z5VOMQKBF
+/Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/1/S2/WSNTU5JSI9LDMC5U11L1E0
+/Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/4/OT/1TWZCCRP6FGNJJ87V0K5IE
+/Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/0/7F/W2D1CQBX3ZBWPIZ0CNUBXP
+/Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/8/D2/2EAEJU14USW4743OCODYEI
+/Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/3/JQ/1UXAZ3QXARZU50ELNQFY96
+/Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap_2/8/57/CXQNNBOYSBULJK8M4M1DQG
+[2022.05.14-09.29.33:970][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.05.14-09.29.33:976][940]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/ThirdPersonMap_2
+[2022.05.14-09.29.33:976][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/ThirdPersonMap_2C9A83FE948248B56AF4A529484E9FC3D.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/ThirdPerson/Maps/ThirdPersonMap_2.umap'
+[2022.05.14-09.29.33:984][940]LogFileHelpers: Saving map 'ThirdPersonMap_2' took 0.123
+[2022.05.14-09.29.33:986][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/DM/ZHGFKI82Q5P7ZLP16IC2TF
+[2022.05.14-09.29.33:986][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/ZHGFKI82Q5P7ZLP16IC2TF7E45B11D4719330EE1B40780B1590D05.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/DM/ZHGFKI82Q5P7ZLP16IC2TF.uasset'
+[2022.05.14-09.29.33:988][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/RO/EFK6EVGJT2LJIK7RIRAG01
+[2022.05.14-09.29.33:988][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/EFK6EVGJT2LJIK7RIRAG01586CAD1C41C423A57A7603AB6F3498DB.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/8/RO/EFK6EVGJT2LJIK7RIRAG01.uasset'
+[2022.05.14-09.29.33:990][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/X3/45YV41IYBXWQ8Z5VOMQKBF
+[2022.05.14-09.29.33:990][940]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/45YV41IYBXWQ8Z5VOMQKBFC34EE6FA4995297D455C77BB57AFF410.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/2/X3/45YV41IYBXWQ8Z5VOMQKBF.uasset'
+[2022.05.14-09.29.33:999][940]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2
+[2022.05.14-09.29.34:000][940]Cmd: MAP LOAD FILE="../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/ThirdPerson/Maps/ThirdPersonMap_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.14-09.29.34:000][940]LightingResults: New page: Lighting Build
+[2022.05.14-09.29.34:000][940]LoadErrors: New page: Loading map: ThirdPersonMap_2.umap
+[2022.05.14-09.29.34:026][940]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-09.29.34:027][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-09.29.34:030][940]MapCheck: New page: Map Check
+[2022.05.14-09.29.34:030][940]LightingResults: New page: Lighting Build
+[2022.05.14-09.29.34:036][940]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.14-09.29.34:038][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.05.14-09.29.34:039][940]LogWorld: UWorld::CleanupWorld for ThirdPersonMap_2, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-09.29.34:039][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-09.29.34:045][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.05.14-09.29.34:051][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.05.14-09.29.34:055][940]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap_2'.
+[2022.05.14-09.29.34:055][940]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-09.29.34:055][940]LogAIModule: Creating AISystem for world ThirdPersonMap_2
+[2022.05.14-09.29.34:055][940]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.14-09.29.34:055][940]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2022.05.14-09.29.34:069][940]LogWorldPartition: Display: WorldPartition initialize took 13 ms
+[2022.05.14-09.29.34:093][940]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.14-09.29.34:100][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.05.14-09.29.34:107][940]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.14-09.29.34:107][940]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,129ms to complete.
+[2022.05.14-09.29.34:107][940]LogFileHelpers: Loading map 'ThirdPersonMap_2' took 0.107
+[2022.05.14-09.29.34:112][940]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.14-09.29.34:112][940]LogContentValidation: Display: Validating ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.ActorFolder_UID_EBA23F82-48252949-750E4391-1A3A1CDD
+[2022.05.14-09.29.34:112][940]LogContentValidation: Display: Validating ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.ActorFolder_UID_7B7009C3-45D3D6DD-94D3429E-1D79C034
+[2022.05.14-09.29.34:112][940]LogContentValidation: Display: Validating ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.ActorFolder_UID_963EC3EB-4002CCE9-759E2EBA-541A873A
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.ActorFolder_UID_C73F09FC-4215536B-1DCE2A9E-0A830C70
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating WorldDataLayers /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.WorldDataLayers
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_23
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_8
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_25
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_13
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_5
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_12
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_22
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_21
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_10
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_2
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_16
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating PostProcessVolume /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.PostProcessVolume_0
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_9
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating PlayerStart /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.PlayerStart_0
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_7
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_14
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_19
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating ExponentialHeightFog /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.ExponentialHeightFog_0
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_1
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_4
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_24
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_35
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating TextRenderActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.TextRenderActor_1
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_15
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_32
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_34
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating VolumetricCloud /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.VolumetricCloud_0
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_33
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_20
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating DirectionalLight /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.DirectionalLight_0
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_18
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating WorldPartitionMiniMap /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.WorldPartitionMiniMap_0
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_6
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating SkyLight /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.SkyLight_1
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_11
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_0
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_3
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating SkyAtmosphere /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.SkyAtmosphere_0
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.ActorFolder_UID_7D23E5AE-4C2A421F-86AF6986-D87E6D05
+[2022.05.14-09.29.34:113][940]LogContentValidation: Display: Validating ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.ActorFolder_UID_D075E5BA-49330D3E-C2503D81-A7CF88D1
+[2022.05.14-09.29.35:289][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.05.14-09.29.35:329][ 58]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2022.05.14-09.29.35:329][ 58]Cmd: MAP LOAD FILE="../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.14-09.29.35:329][ 58]LightingResults: New page: Lighting Build
+[2022.05.14-09.29.35:329][ 58]LoadErrors: New page: Loading map: ThirdPersonMap.umap
+[2022.05.14-09.29.35:366][ 58]LogWorld: UWorld::CleanupWorld for ThirdPersonMap_2, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-09.29.35:366][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-09.29.35:370][ 58]MapCheck: New page: Map Check
+[2022.05.14-09.29.35:370][ 58]LightingResults: New page: Lighting Build
+[2022.05.14-09.29.35:376][ 58]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.14-09.29.35:377][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.05.14-09.29.35:378][ 58]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-09.29.35:379][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-09.29.35:385][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.05.14-09.29.35:390][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.05.14-09.29.35:394][ 58]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2022.05.14-09.29.35:394][ 58]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-09.29.35:394][ 58]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.14-09.29.35:394][ 58]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.14-09.29.35:394][ 58]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2022.05.14-09.29.35:408][ 58]LogWorldPartition: Display: WorldPartition initialize took 13 ms
+[2022.05.14-09.29.35:409][ 58]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.14-09.29.35:416][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.05.14-09.29.35:422][ 58]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.14-09.29.35:422][ 58]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,12ms to complete.
+[2022.05.14-09.29.35:422][ 58]LogFileHelpers: Loading map 'ThirdPersonMap' took 0.093
+[2022.05.14-09.29.35:982][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.05.14-09.29.36:036][117]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2
+[2022.05.14-09.29.36:037][117]Cmd: MAP LOAD FILE="../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/ThirdPerson/Maps/ThirdPersonMap_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.14-09.29.36:037][117]LightingResults: New page: Lighting Build
+[2022.05.14-09.29.36:037][117]LoadErrors: New page: Loading map: ThirdPersonMap_2.umap
+[2022.05.14-09.29.36:038][117]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-09.29.36:038][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-09.29.36:042][117]MapCheck: New page: Map Check
+[2022.05.14-09.29.36:042][117]LightingResults: New page: Lighting Build
+[2022.05.14-09.29.36:048][117]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.14-09.29.36:049][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.05.14-09.29.36:051][117]LogWorld: UWorld::CleanupWorld for ThirdPersonMap_2, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-09.29.36:051][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-09.29.36:058][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.05.14-09.29.36:063][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.05.14-09.29.36:067][117]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap_2'.
+[2022.05.14-09.29.36:067][117]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-09.29.36:067][117]LogAIModule: Creating AISystem for world ThirdPersonMap_2
+[2022.05.14-09.29.36:068][117]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.14-09.29.36:068][117]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2022.05.14-09.29.36:081][117]LogWorldPartition: Display: WorldPartition initialize took 13 ms
+[2022.05.14-09.29.36:083][117]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.14-09.29.36:090][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.05.14-09.29.36:095][117]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.14-09.29.36:095][117]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,128ms to complete.
+[2022.05.14-09.29.36:095][117]LogFileHelpers: Loading map 'ThirdPersonMap_2' took 0.060
+[2022.05.14-09.29.41:213][709]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.29.41:213][709]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.29.41:696][759]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.29.41:696][759]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.29.56:909][564]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.29.56:909][564]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.29.58:526][743]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.29.58:526][743]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.29.59:067][803]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.29.59:067][803]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.30.02:417][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.15ms
+[2022.05.14-09.30.02:469][176]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2022.05.14-09.30.02:469][176]Cmd: MAP LOAD FILE="../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.14-09.30.02:469][176]LightingResults: New page: Lighting Build
+[2022.05.14-09.30.02:469][176]LoadErrors: New page: Loading map: ThirdPersonMap.umap
+[2022.05.14-09.30.02:470][176]LogWorld: UWorld::CleanupWorld for ThirdPersonMap_2, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-09.30.02:470][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-09.30.02:474][176]MapCheck: New page: Map Check
+[2022.05.14-09.30.02:474][176]LightingResults: New page: Lighting Build
+[2022.05.14-09.30.02:479][176]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.14-09.30.02:481][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.05.14-09.30.02:482][176]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-09.30.02:482][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-09.30.02:489][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.05.14-09.30.02:495][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.05.14-09.30.02:498][176]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2022.05.14-09.30.02:498][176]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-09.30.02:499][176]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.14-09.30.02:499][176]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.14-09.30.02:499][176]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2022.05.14-09.30.02:512][176]LogWorldPartition: Display: WorldPartition initialize took 14 ms
+[2022.05.14-09.30.02:514][176]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.14-09.30.02:520][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.05.14-09.30.02:527][176]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.14-09.30.02:527][176]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,121ms to complete.
+[2022.05.14-09.30.02:527][176]LogFileHelpers: Loading map 'ThirdPersonMap' took 0.059
+[2022.05.14-09.30.03:125][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.05.14-09.30.03:172][240]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2
+[2022.05.14-09.30.03:172][240]Cmd: MAP LOAD FILE="../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/ThirdPerson/Maps/ThirdPersonMap_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.14-09.30.03:172][240]LightingResults: New page: Lighting Build
+[2022.05.14-09.30.03:172][240]LoadErrors: New page: Loading map: ThirdPersonMap_2.umap
+[2022.05.14-09.30.03:173][240]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-09.30.03:173][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-09.30.03:177][240]MapCheck: New page: Map Check
+[2022.05.14-09.30.03:177][240]LightingResults: New page: Lighting Build
+[2022.05.14-09.30.03:182][240]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.14-09.30.03:184][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.05.14-09.30.03:185][240]LogWorld: UWorld::CleanupWorld for ThirdPersonMap_2, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-09.30.03:185][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-09.30.03:191][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.05.14-09.30.03:196][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.05.14-09.30.03:200][240]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap_2'.
+[2022.05.14-09.30.03:200][240]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-09.30.03:200][240]LogAIModule: Creating AISystem for world ThirdPersonMap_2
+[2022.05.14-09.30.03:201][240]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.14-09.30.03:201][240]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2022.05.14-09.30.03:214][240]LogWorldPartition: Display: WorldPartition initialize took 13 ms
+[2022.05.14-09.30.03:215][240]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.14-09.30.03:222][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.05.14-09.30.03:229][240]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.14-09.30.03:229][240]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,117ms to complete.
+[2022.05.14-09.30.03:229][240]LogFileHelpers: Loading map 'ThirdPersonMap_2' took 0.057
+[2022.05.14-09.30.12:034][ 67]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.30.12:034][ 67]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.14-09.30.15:091][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.05.14-09.30.15:092][414]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2
+[2022.05.14-09.30.15:093][414]Cmd: MAP LOAD FILE="../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/ThirdPerson/Maps/ThirdPersonMap_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.14-09.30.15:093][414]LightingResults: New page: Lighting Build
+[2022.05.14-09.30.15:093][414]LoadErrors: New page: Loading map: ThirdPersonMap_2.umap
+[2022.05.14-09.30.15:117][414]LogWorld: UWorld::CleanupWorld for ThirdPersonMap_2, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-09.30.15:117][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-09.30.15:121][414]MapCheck: New page: Map Check
+[2022.05.14-09.30.15:121][414]LightingResults: New page: Lighting Build
+[2022.05.14-09.30.15:126][414]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.14-09.30.15:128][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.05.14-09.30.15:131][414]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap_2'.
+[2022.05.14-09.30.15:131][414]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-09.30.15:132][414]LogAIModule: Creating AISystem for world ThirdPersonMap_2
+[2022.05.14-09.30.15:132][414]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.14-09.30.15:132][414]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2022.05.14-09.30.15:145][414]LogWorldPartition: Display: WorldPartition initialize took 13 ms
+[2022.05.14-09.30.15:147][414]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.14-09.30.15:153][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.05.14-09.30.15:160][414]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.14-09.30.15:160][414]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,122ms to complete.
+[2022.05.14-09.30.15:160][414]LogFileHelpers: Loading map 'ThirdPersonMap_2' took 0.067
