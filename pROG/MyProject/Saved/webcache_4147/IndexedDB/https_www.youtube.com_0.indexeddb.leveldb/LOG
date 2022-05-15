@@ -1,0 +1,5 @@
+2022/05/15-10:00:09.368 27aa8 Reusing MANIFEST D:/Unreal Project/ETPA_GJ_2022/pROG/MyProject/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/15-10:23:03.760 298c4 Level-0 table #5: started
+2022/05/15-10:23:03.816 298c4 Level-0 table #5: 6585 bytes OK
+2022/05/15-10:23:03.840 298c4 Delete type=0 #3
+2022/05/15-10:23:03.840 298c4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
