@@ -2701,3 +2701,162 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.05.15-12.15.31:686][919]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
 [2022.05.15-12.15.31:690][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
 [2022.05.15-12.15.31:717][920]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2022.05.15-12.16.25:970][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.05.15-12.16.27:034][948]LogSlate: Window 'Save Content' being destroyed
+[2022.05.15-12.16.27:105][948]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/P3/15683HOLQ2Y8DKXKHMDEBS
+[2022.05.15-12.16.27:105][948]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/15683HOLQ2Y8DKXKHMDEBSAE725E044091521B43730AB267B6EE8C.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/P3/15683HOLQ2Y8DKXKHMDEBS.uasset'
+[2022.05.15-12.16.27:108][948]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/MF/L0OJB287W50SA8KBV169SB
+[2022.05.15-12.16.27:108][948]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/L0OJB287W50SA8KBV169SBA2BA7AA04B84E3D0251F5B85AA2BB509.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/MF/L0OJB287W50SA8KBV169SB.uasset'
+[2022.05.15-12.16.27:111][948]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/I8/OJO4ZUTCHC8HFBJ3L26S1R
+[2022.05.15-12.16.27:111][948]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/OJO4ZUTCHC8HFBJ3L26S1RC09277514FB9871884135AA72BA64CF2.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/D/I8/OJO4ZUTCHC8HFBJ3L26S1R.uasset'
+[2022.05.15-12.16.27:113][948]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/KJ/7L2LYJHH31TCO36G602274
+[2022.05.15-12.16.27:113][948]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/7L2LYJHH31TCO36G6022749600499B4D6FA11BD9135AB0DA898A2D.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/E/KJ/7L2LYJHH31TCO36G602274.uasset'
+[2022.05.15-12.16.27:160][948]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Fruit
+[2022.05.15-12.16.27:161][948]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/BP_FruitF5D6722049679C76A796C4BEC7E71603.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/ThirdPerson/Blueprints/BP_Fruit.uasset'
+[2022.05.15-12.16.27:163][948]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/Z7/PY5DQ33XNQZCHCFC466AWE
+[2022.05.15-12.16.27:164][948]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/PY5DQ33XNQZCHCFC466AWEA425EEC0423C9DE9F9A6FBBD7F7E5FD1.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/Z7/PY5DQ33XNQZCHCFC466AWE.uasset'
+[2022.05.15-12.16.27:175][948]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/PP_AddWorldActor
+[2022.05.15-12.16.27:176][948]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/PP_AddWorldActor4BB4ADF74F27CE0D89C8D3A3B4DD6150.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/ThirdPerson/Blueprints/PP_AddWorldActor.uasset'
+[2022.05.15-12.16.27:178][948]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/EJ/PMOUJQTE35YQA5YGNHJZFH
+[2022.05.15-12.16.27:178][948]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/PMOUJQTE35YQA5YGNHJZFHED5F4216444C0666277514AD3260EA93.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/0/EJ/PMOUJQTE35YQA5YGNHJZFH.uasset'
+[2022.05.15-12.16.27:180][948]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/OQ/XEV7FJIWSECPTIF2OAASZ8
+[2022.05.15-12.16.27:180][948]LogSavePackage: Moving '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Saved/XEV7FJIWSECPTIF2OAASZ8B2F3FEC44E9F561A45693AACFD7C6A81.tmp' to '../../../../../../Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap_2/6/OQ/XEV7FJIWSECPTIF2OAASZ8.uasset'
+[2022.05.15-12.16.27:194][948]LogStall: Shutdown...
+[2022.05.15-12.16.27:201][948]LogStall: Shutdown complete.
+[2022.05.15-12.16.27:264][948]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-12.16.27:264][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-12.16.27:268][948]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-12.16.27:269][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-12.16.27:303][948]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-12.16.27:303][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-12.16.27:351][948]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.05.15-12.16.27:351][948]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-12.16.27:351][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-12.16.27:409][948]LogSlate: Window 'MyProject - Unreal Editor' being destroyed
+[2022.05.15-12.16.27:523][948]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.15-12.16.27:523][948]LogContentValidation: Display: Validating PP_AddWorldActor_C /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.PP_AddWorldActor_C_UAID_BCE92FA153B7C10F01_1685840971
+[2022.05.15-12.16.27:523][948]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/PP_AddWorldActor.PP_AddWorldActor
+[2022.05.15-12.16.27:523][948]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_Fruit.BP_Fruit
+[2022.05.15-12.16.27:523][948]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_UAID_BCE92FA153B7121001_1147763232
+[2022.05.15-12.16.27:523][948]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_UAID_BCE92FA153B7121001_1134224231
+[2022.05.15-12.16.27:523][948]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_UAID_BCE92FA153B7121001_1109740230
+[2022.05.15-12.16.27:523][948]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_UAID_BCE92FA153B7121001_1644157234
+[2022.05.15-12.16.27:523][948]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_UAID_BCE92FA153B7121001_1665180235
+[2022.05.15-12.16.27:523][948]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap_2.ThirdPersonMap_2:PersistentLevel.StaticMeshActor_UAID_BCE92FA153B7121001_1712076236
+[2022.05.15-12.16.27:568][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.05.15-12.16.27:588][949]Cmd: QUIT_EDITOR
+[2022.05.15-12.16.27:588][949]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.05.15-12.16.27:602][949]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.05.15-12.16.27:602][949]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2022.05.15-12.16.27:602][949]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2022.05.15-12.16.28:310][949]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.05.15-12.16.28:310][949]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.05.15-12.16.28:310][949]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap_2'.
+[2022.05.15-12.16.28:310][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.05.15-12.16.28:311][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.05.15-12.16.28:320][949]LogAudio: Display: Audio Device Manager Shutdown
+[2022.05.15-12.16.28:325][949]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.05.15-12.16.28:327][949]LogExit: Preparing to exit.
+[2022.05.15-12.16.28:352][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.05.15-12.16.28:353][949]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.05.15-12.16.28:353][949]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.05.15-12.16.28:353][949]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.05.15-12.16.28:353][949]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.05.15-12.16.28:353][949]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.05.15-12.16.28:353][949]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.05.15-12.16.28:353][949]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.05.15-12.16.28:354][949]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.05.15-12.16.28:354][949]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.05.15-12.16.28:354][949]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.05.15-12.16.28:354][949]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.05.15-12.16.29:139][949]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-12.16.29:141][949]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-12.16.29:143][949]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-12.16.29:145][949]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-12.16.29:166][949]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-12.16.29:167][949]LogDirectoryWatcher: Display: A directory notification failed, and we were unable to create a new request. GetLastError code [6] Handle [FFFFFFFFFFFFFFFF], Path [C:/Users/GAME1/Documents/GitHub/ETPA_GJ_2022/pROG/MyProject/Content/] 
+[2022.05.15-12.16.29:204][949]LogStylusInput: Shutting down StylusInput subsystem.
+[2022.05.15-12.16.29:205][949]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2022.05.15-12.16.29:210][949]LogExit: Editor shut down
+[2022.05.15-12.16.29:210][949]LogExit: Transaction tracking system shut down
+[2022.05.15-12.16.29:220][949]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.05.15-12.16.29:445][949]LogExit: Object subsystem successfully closed.
+[2022.05.15-12.16.29:451][949]LogShaderCompilers: Display: ================================================
+[2022.05.15-12.16.29:451][949]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.15-12.16.29:451][949]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.05.15-12.16.29:451][949]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.05.15-12.16.29:451][949]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.05.15-12.16.29:451][949]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.05.15-12.16.29:451][949]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.05.15-12.16.29:451][949]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.05.15-12.16.29:451][949]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.05.15-12.16.29:451][949]LogShaderCompilers: Display: ================================================
+[2022.05.15-12.16.29:486][949]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.05.15-12.16.29:524][949]LogModuleManager: Shutting down and abandoning module BlueprintGraph (890)
+[2022.05.15-12.16.29:524][949]LogModuleManager: Shutting down and abandoning module SequencerWidgets (888)
+[2022.05.15-12.16.29:524][949]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (886)
+[2022.05.15-12.16.29:524][949]LogModuleManager: Shutting down and abandoning module Voice (884)
+[2022.05.15-12.16.29:524][949]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (882)
+[2022.05.15-12.16.29:524][949]LogModuleManager: Shutting down and abandoning module AddContentDialog (880)
+[2022.05.15-12.16.29:524][949]LogModuleManager: Shutting down and abandoning module WidgetCarousel (879)
+[2022.05.15-12.16.29:524][949]LogModuleManager: Shutting down and abandoning module SubobjectEditor (874)
+[2022.05.15-12.16.29:524][949]LogModuleManager: Shutting down and abandoning module SceneOutliner (872)
+[2022.05.15-12.16.29:524][949]LogModuleManager: Shutting down and abandoning module StatusBar (870)
+[2022.05.15-12.16.29:524][949]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (868)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module DataLayerEditor (866)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module StatsViewer (864)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (862)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module AutomationWorker (860)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (858)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module GooglePADEditor (856)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (854)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (852)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (850)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (848)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (846)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (844)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (842)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module WebMMedia (840)
+[2022.05.15-12.16.29:525][949]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (838)
+[2022.05.15-12.16.29:527][949]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (836)
+[2022.05.15-12.16.29:527][949]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (834)
+[2022.05.15-12.16.29:527][949]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (832)
+[2022.05.15-12.16.29:527][949]LogModuleManager: Shutting down and abandoning module SequenceRecorder (831)
+[2022.05.15-12.16.29:527][949]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (828)
+[2022.05.15-12.16.29:527][949]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (826)
+[2022.05.15-12.16.29:527][949]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (824)
+[2022.05.15-12.16.29:527][949]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (822)
+[2022.05.15-12.16.29:528][949]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (820)
+[2022.05.15-12.16.29:528][949]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (818)
+[2022.05.15-12.16.29:528][949]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (816)
+[2022.05.15-12.16.29:528][949]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (814)
+[2022.05.15-12.16.29:528][949]LogModuleManager: Shutting down and abandoning module PlanarCut (812)
+[2022.05.15-12.16.29:528][949]LogModuleManager: Shutting down and abandoning module CharacterAI (810)
+[2022.05.15-12.16.29:528][949]LogModuleManager: Shutting down and abandoning module TextureAlignMode (808)
+[2022.05.15-12.16.29:528][949]LogModuleManager: Shutting down and abandoning module BspMode (806)
+[2022.05.15-12.16.29:528][949]LogModuleManager: Shutting down and abandoning module GeometryMode (804)
+[2022.05.15-12.16.29:529][949]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (802)
+[2022.05.15-12.16.29:529][949]LogModuleManager: Shutting down and abandoning module IKRigEditor (800)
+[2022.05.15-12.16.29:529][949]LogModuleManager: Shutting down and abandoning module ControlRigEditor (798)
+[2022.05.15-12.16.29:530][949]LogModuleManager: Shutting down and abandoning module AnimationEditor (797)
+[2022.05.15-12.16.29:530][949]LogModuleManager: Shutting down and abandoning module ControlRigSplineEditor (794)
+[2022.05.15-12.16.29:530][949]LogModuleManager: Shutting down and abandoning module SmartSnapping (792)
+[2022.05.15-12.16.29:530][949]LogModuleManager: Shutting down and abandoning module SessionServices (790)
+[2022.05.15-12.16.29:532][949]LogModuleManager: Shutting down and abandoning module MeshPaint (788)
+[2022.05.15-12.16.29:533][949]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (786)
+[2022.05.15-12.16.29:533][949]LogModuleManager: Shutting down and abandoning module PlacementMode (785)
+[2022.05.15-12.16.29:533][949]LogModuleManager: Shutting down and abandoning module FoliageEdit (782)
+[2022.05.15-12.16.29:534][949]LogModuleManager: Shutting down and abandoning module LandscapeEditor (780)
+[2022.05.15-12.16.29:535][949]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (778)
+[2022.05.15-12.16.29:535][949]LogModuleManager: Shutting down and abandoning module ActorPickerMode (776)
+[2022.05.15-12.16.29:535][949]LogModuleManager: Shutting down and abandoning module ViewportSnapping (774)
+[2022.05.15-12.16.29:535][949]LogModuleManager: Shutting down and abandoning module EditorWidgets (772)
+[2022.05.15-12.16.29:535][949]LogModuleManager: Shutting down and abandoning module ViewportInteraction (770)
+[2022.05.15-12.16.29:535][949]LogModuleManager: Shutting down and abandoning module ClothPainter (768)
+[2022.05.15-12.16.29:535][949]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (767)
+[2022.05.15-12.16.29:535][949]LogModuleManager: Shutting down and abandoning module LogVisualizer (764)
+[2022.05.15-12.16.29:536][949]LogModuleManager: Shutting down and abandoning module IntroTutorials (762)
+[2022.05.15-12.16.29:537][949]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (760)
+[2022.05.15-12.16.29:537][949]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (758)
+[2022.05.15-12.16.29:537][949]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (757)
+[2022.05.15-12.16.29:537][949]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (755)
